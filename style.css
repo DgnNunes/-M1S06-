@@ -1,44 +1,40 @@
 /* styles.css */
 
-/* Reset de margens e preenchimentos para garantir consistência */
+
 body, h1, h2, p, ul, li {
     margin: 10px;
     padding: 10px;
 }
 
-/* Estilo para o cabeçalho */
+
 header {
-    background-color: #5746a4; /* Cor de fundo */
-    color: #fff; /* Cor do texto */
-    padding: 20px; /* Espaçamento interno */
-    text-align: center; /* Alinhamento de texto centralizado */
+    background-color: #5746a4; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
     font-size: xx-large;
 }
 
-/* Estilo para o conteúdo principal */
+
 main {
-    max-width: auto; /* Largura máxima do conteúdo */
-    margin: 0px; /* Centralizado com margens laterais */
-    padding: 20px; /* Espaçamento interno */
-    /* Defina a imagem desejada como plano de fundo */
+   
+    max-width: auto; 
+    margin: 0px; 
+    padding: 20px; 
     background-image: url('AdobeStock_89540196.jpeg');
-    /* Defina a repetição da imagem, tamanho e posição conforme necessário */
     background-repeat: no-repeat;
-    background-size:cover; /* ou 'contain' dependendo da preferência */
-    background-position:;
-    /* Define uma cor de fundo como fallback, caso a imagem não seja carregada */
+    background-size:cover; 
     background-color: #5746a4;
-    /* Adicione outras propriedades de estilo conforme necessário */
-    color: #000000; /* Cor do texto */
+    color: #000000;
     font-family: Arial, sans-serif; 
     text-shadow: 1px 1px 0 #ffffffd4, -1px -1px 0 #ffffffd4, 1px -1px 0 #ffffffd4, -1px 1px 0 #ffffffd4;
 }
 
 
-/* Estilo para o rodapé */
+
 footer {
-    background-color: #5746a4; /* Cor de fundo */
-    color: #000000; /* Cor do texto */
-    padding: 10px; /* Espaçamento interno */
-    text-align: center; /* Alinhamento de texto centralizado */
+    background-color: #5746a4; 
+    color: #000000; 
+    padding: 10px; 
+    text-align: center;
 }
