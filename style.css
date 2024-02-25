@@ -1,21 +1,30 @@
 /* styles.css */
 
-/* Reset de margens e preenchimentos para garantir consistência */
+
 body, h1, h2, p, ul, li {
     margin: 10px;
     padding: 10px;
 }
 
-/* Estilo para o cabeçalho */
+
 header {
+<<<<<<< Updated upstream
     background-color: #333; /* Cor de fundo */
     color: #fff; /* Cor do texto */
     padding: 20px; /* Espaçamento interno */
     text-align: center; /* Alinhamento de texto centralizado */
+=======
+    background-color: #5746a4; 
+    color: #fff; 
+    padding: 20px; 
+    text-align: center; 
+    font-size: xx-large;
+>>>>>>> Stashed changes
 }
 
-/* Estilo para o conteúdo principal */
+
 main {
+<<<<<<< Updated upstream
     max-width: 800px; /* Largura máxima do conteúdo */
     margin: 20px auto; /* Centralizado com margens laterais */
     padding: 20px; /* Espaçamento interno */
@@ -28,3 +37,25 @@ footer {
     padding: 10px; /* Espaçamento interno */
     text-align: center; /* Alinhamento de texto centralizado */
 }
+=======
+    max-width: auto; 
+    margin: 0px; 
+    padding: 20px; 
+    background-image: url('AdobeStock_89540196.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    background-color: #5746a4;
+    color: #000000;
+    font-family: Arial, sans-serif; 
+    text-shadow: 1px 1px 0 #ffffffd4, -1px -1px 0 #ffffffd4, 1px -1px 0 #ffffffd4, -1px 1px 0 #ffffffd4;
+}
+
+
+
+footer {
+    background-color: #5746a4; 
+    color: #000000; 
+    padding: 10px; 
+    text-align: center;
+}
+>>>>>>> Stashed changes
