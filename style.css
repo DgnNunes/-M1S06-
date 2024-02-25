@@ -1,11 +1,8 @@
-/* styles.css */
-
-
 body, h1, h2, p, ul, li {
-    margin: 10px;
-    padding: 10px;
+    margin: auto;
+    padding: 0px;
+    
 }
-
 
 header {
     background-color: #5746a4; 
@@ -13,6 +10,7 @@ header {
     padding: 20px; 
     text-align: center; 
     font-size: xx-large;
+    background-size: 200px;
 }
 
 
@@ -28,6 +26,7 @@ main {
     color: #000000;
     font-family: Arial, sans-serif; 
     text-shadow: 1px 1px 0 #ffffffd4, -1px -1px 0 #ffffffd4, 1px -1px 0 #ffffffd4, -1px 1px 0 #ffffffd4;
+    
 }
 
 
@@ -38,3 +37,29 @@ footer {
     padding: 10px; 
     text-align: center;
 }
+
+.aquario {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+}
+
+#peixe {
+    position: absolute;
+    width: 100px; 
+    height: auto;
+    top: 0; 
+    left: 0; 
+    transform-origin: left;
+    animation: nadar 20s infinite linear; 
+    
+}
+
+@keyframes nadar {
+    to {
+        left: 100%; 
+        
+    }
+}
+
