@@ -3,3 +3,4 @@ function nadarVerticalmente() {
     const alturaAleatoria = Math.floor(Math.random() * window.innerHeight);
     peixe.style.top = `${alturaAleatoria}px`;
 }
+alert("Seja Bem Vindo")
